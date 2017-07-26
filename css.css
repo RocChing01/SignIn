@@ -1,0 +1,118 @@
+.header{
+    background-color:#5fc0cd;
+    width:100%;
+    padding-top:15%;
+    position:absolute;
+    top:0%;
+    left:0%;
+}
+.close{
+    width:15%;
+    padding-top:6%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    color:white;
+    text-align:center;
+    font-size: 6vw;
+    cursor:pointer;
+}
+.denglu{
+    width:15%;
+    padding-top:5%;
+    position:absolute;
+    top:0%;
+    left:41.5%;
+    color:white;
+    text-align:center;
+    font-size:7vw;
+    cursor:pointer;
+}
+.zhuce{
+    width:15%;
+    padding-top:6%;
+    position:absolute;
+    top:0%;
+    right:0%;
+    color:white;
+    text-align:center;
+    font-size:6vw;
+    cursor:pointer;
+}
+.numberbackground{
+    width:100%;
+    background-color:white;
+    padding:3% 0px 3% 0px;
+    position:absolute;
+    left:0%;
+    top:15%;
+    background-repeat:no-repeat;
+    vertical-align: middle;
+    background-position: center center;
+}
+.background{
+    width:100%;
+    padding-top:115.2%;
+    background-color:gainsboro;
+    position: absolute;
+    left:0%;
+    top:0;
+}
+.input{
+    border:none;
+    outline:none;
+    font-size: 6vw;
+}
+.phone{
+    background-image: url(/../SignIn/smart1.png);
+    background-repeat:no-repeat;
+    width:20%;
+    padding-top:8.2%;
+    float:left;
+    background-size:cover;
+}
+.password{
+    width:100%;
+    background-color:white;
+    padding:3% 0px 3% 0px;
+    position:absolute;
+    left:0%;
+    top:30%;
+    background-repeat:no-repeat;
+    vertical-align: middle;
+    background-position: center center;
+}
+.lock{
+    background-image: url(/../SignIn/lock.png);
+    width:20%;
+    padding-top:8.2%;
+    float:left;
+    background-size:cover;
+}
+.button{
+    background-color:#5fc0cd;
+    width:100%;
+    padding-top:0.5%;
+    position:absolute;
+    left:0%;
+    top:45%;
+    font-size:4vw;
+    color:white;
+    cursor: pointer;
+    border:none;
+    outline:none;
+}
+.button1{
+    background-color: inherit;
+    width:25%;
+    padding-top:0.5%;
+    position:absolute ;
+    right:2%;
+    top:52%;
+    font-size:2vw;
+    color:#5fc0cd;
+    cursor:pointer;
+    border:none;
+    outline:none;
+    text-decoration:underline;
+}
