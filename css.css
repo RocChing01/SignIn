@@ -1,21 +1,23 @@
 .header {
     background-color: #5fc0cd;
     width: 100%;
-    padding-top: 1%;
-    height: 4%;
-    position:absolute;
+    padding-top: 0.7rem;
+    height: 1.25rem;
+    position:fixed;
     top: 0%;
     left: 0%;
+    right: 0%;
     text-align:center ;
     color:white;
-    font-size: 4vw;
-    line-height: 250%;
+    font-size: 18px;;
+    line-height: 100%;
+    padding-bottom: 0.7rem;
 }
 .close{
     width:15%;
     padding-top:1%;
-    position:absolute;
-    top:0%;
+    position:fixed;
+    top:0.25rem;
     left:0%;
     color:white;
     text-align:center;
@@ -24,18 +26,18 @@
 }
 .denglu{
     width:15%;
-    padding-top: 1%;
+    padding-top: 0.1rem;
     position:absolute;
     top:0%;
     left:41.5%;
     color:white;
     text-align:center;
-    font-size: 20px;
+    font-size: 1rem;
 }
 .zhuce{
     width:15%;
     padding-top:1%;
-    position:absolute;
+    position:fixed;
     top:0%;
     right:0%;
     color:white;
@@ -46,60 +48,53 @@
 .numberbackground{
     width:100%;
     background-color:white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    position:absolute;
-    left:0%;
-    top: 5%;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-repeat:no-repeat;
 }
 .background{
     width:100%;
-    padding-top:282%;
+    padding-top:0%;
     background-color:gainsboro;
     position: absolute;
-    left:0%;
+    left:0;
     top:0;
 }
 .input{
+    background-image: url(/../SignIn/smart.png);
+    background-repeat: no-repeat;
     border:none;
     outline:none;
-    font-size: 6vw;
+    font-size: 1.2rem;
+    padding-left: 6rem;
 }
-.phone{
-    background-image: url(/../SignIn/smart1.png);
-    background-repeat:no-repeat;
-    width:20%;
-    padding-top:8.2%;
-    float:left;
-    background-size:cover;
+.input1{
+    background-image: url(/../SignIn/lock.png);
+    background-repeat: no-repeat;
+    border:none;
+    outline:none;
+    font-size: 1.2rem;
+    padding-left: 6rem;
 }
+
 .password{
     width:100%;
     background-color:white;
-    padding:1% 0px 1% 0px;
-    position:absolute;
-    left:0%;
-    top:9.3%;
+    padding:0.5rem 0px 0.5rem 0px;
     background-repeat:no-repeat;
     vertical-align: middle;
     background-position: center center;
+    margin-top: 0.5rem;
 }
-.lock{
-    background-image: url(/../SignIn/lock.png);
-    width:20%;
-    padding-top:8.2%;
-    float:left;
-    background-size:cover;
-}
+
+
 .button{
     background-color:#5fc0cd;
     width:100%;
-    padding-top:0.5%;
-    position:absolute;
-    left:0%;
-    top:15%;
-    font-size:4vw;
+    padding-top:0.5rem;
+    margin-top: 0.5rem;
+    font-size:2rem;
     color:white;
     cursor: pointer;
     border:none;
@@ -107,15 +102,43 @@
 }
 .button1{
     background-color: inherit;
-    width:25%;
-    padding-top:0.5%;
-    position:absolute ;
-    right:2%;
-    top:18%;
-    font-size:2vw;
+    width:8rem;
+    padding-top:0.5rem;
+    float: right;
+    font-size:0.8rem;
     color:#5fc0cd;
     cursor:pointer;
     border:none;
     outline:none;
     text-decoration:underline;
+}
+.btz{
+    float:left;
+    cursor:pointer;
+    border:none;
+    outline:none;
+    background-color:#5fc0cd;
+    color:white;
+}
+.btc{
+    float:right;
+    cursor:pointer;
+    border:none;
+    outline:none;
+    background-color:#5fc0cd;
+    color:white;
+}
+body{
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    padding-top: 500%;
+    background-color: gainsboro;
+    position: absolute;
+    left:0;
+    top:2.6rem;
+    right:0;
+    bottom: 0;
+    overflow-x: hidden;
 }
