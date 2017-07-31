@@ -14,7 +14,7 @@
 .close{
     width:15%;
     padding-top:1%;
-    position:fixed;
+    position:absolute;
     top:0%;
     left:0%;
     color:white;
@@ -25,7 +25,7 @@
 .denglu{
     width:15%;
     padding-top: 1%;
-    position:fixed;
+    position:absolute;
     top:0%;
     left:41.5%;
     color:white;
@@ -35,7 +35,7 @@
 .zhuce{
     width:15%;
     padding-top:1%;
-    position:fixed;
+    position:absolute;
     top:0%;
     right:0%;
     color:white;
